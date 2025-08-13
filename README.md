@@ -13,7 +13,7 @@ It showcases **history, culture, patriotic events** and delivers a **fast, mobil
 ---
 
 ## 📸 Preview
-![Website Screenshot](./freedomfest-india-independence-day-2025.jpg)
+![Website Screenshot](Happy-Independence-Day/icons/freedomfest-india-independence-day-2025.jpg)
 
 ---
 

@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(countdown, 1000);
 
 
-    // Confetti Effect (Optimized for Mobile)
+    // Confetti Effect
     const confettiContainer = document.getElementById('confetti-container');
     const colors = ['#FF9933', '#FFFFFF', '#138808', '#FFD700', '#00FFFF'];
 
@@ -109,3 +109,4 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     document.head.appendChild(style);
 });
+

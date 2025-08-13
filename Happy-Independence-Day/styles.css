@@ -13,11 +13,8 @@
 
 html {
     overflow-y: scroll;
-    /* scrolling enable rakhna hai */
     scrollbar-width: none;
-    /* Firefox */
     -ms-overflow-style: none;
-    /* IE and Edge */
 }
 
 html::-webkit-scrollbar {
@@ -34,11 +31,8 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     scrollbar-width: none;
-    /* Firefox */
     -ms-overflow-style: none;
-    /* IE and Edge */
     min-height: 150vh;
-    /* testing only */
 }
 
 body::-webkit-scrollbar {
@@ -209,10 +203,9 @@ body::-webkit-scrollbar {
         transform: translateY(-6px);
     }
 }
-/* Premium Indian-themed Subheading */
+/* Indian-themed Subheading */
 .subheading {
     color: var(--saffron);
-    /* saffron for vibrance */
     font-size: clamp(1.2rem, 2.5vw, 1.7rem);
     font-weight: 500;
     margin-top: 0.75rem;
@@ -220,11 +213,8 @@ body::-webkit-scrollbar {
     line-height: 1.5;
     text-shadow:
         0 0 6px rgba(255, 153, 51, 0.6),
-        /* saffron glow */
         0 0 8px rgba(255, 255, 255, 0.4),
-        /* white soft */
         0 0 10px rgba(19, 136, 8, 0.5);
-    /* green subtle */
     opacity: 0;
     animation: fadeInSub 1.8s ease-in-out forwards;
     transition: color 0.4s ease;
@@ -237,7 +227,7 @@ body::-webkit-scrollbar {
         opacity: 1;
     }
 }
-/* CARDS SECTION - Premium Upgrade */
+/* CARDS SECTION*/
 .cards-section {
     display: flex;
     justify-content: center;
@@ -260,7 +250,7 @@ body::-webkit-scrollbar {
     overflow: hidden;
 }
 
-/* Premium glowing border effect */
+/*glowing border effect */
 .card::before {
     content: '';
     position: absolute;
@@ -268,15 +258,10 @@ body::-webkit-scrollbar {
     border-radius: inherit;
     padding: 2px;
     background: linear-gradient(135deg, var(--saffron), var(--white), var(--green));
-
-    /* Standard mask */
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
-
-    /* Webkit-specific mask (Chrome, Safari) */
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
-
     opacity: 0.4;
     pointer-events: none;
 }
@@ -300,7 +285,7 @@ body::-webkit-scrollbar {
 }
 
 
-/* COUNTDOWN SECTION - Premium Upgrade */
+/* COUNTDOWN SECTION */
 .countdown-section {
     text-align: center;
     padding: 5rem 1rem;
@@ -315,8 +300,7 @@ body::-webkit-scrollbar {
     /* Standard property */
     background-clip: text;
     color: transparent;
-
-    /* WebKit-specific for Chrome/Safari */
+/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -358,7 +342,6 @@ body::-webkit-scrollbar {
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
 
-    /* WebKit-specific for Safari/Chrome */
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
 
@@ -379,14 +362,12 @@ body::-webkit-scrollbar {
     display: block;
 }
 
-/* Countdown Stability Fix */
 .time-card span {
     display: inline-block;
     width: 2ch;
-    /* prevents width shift when numbers change */
     text-align: center;
 }
-/* CONFETTI CONTAINER - Premium Floating Glow Edition */
+/* CONFETTI CONTAINER  */
 #confetti-container {
     position: fixed;
     inset: 0;
@@ -399,7 +380,7 @@ body::-webkit-scrollbar {
     animation: subtlePulse 4s ease-in-out infinite;
 }
 
-/* Gentle breathing glow to make celebrations feel alive */
+/* Gentle breathing glow */
 @keyframes subtlePulse {
 
     0%,
@@ -412,7 +393,7 @@ body::-webkit-scrollbar {
     }
 }
 
-/* History Section - Ultra Premium Edition */
+/* History Section */
 .history-section {
     max-width: 950px;
     margin: 4rem auto;
@@ -501,26 +482,6 @@ body::-webkit-scrollbar {
         transform: translateY(0);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer Base */
 .footer {
     position: relative;
@@ -735,30 +696,6 @@ body::-webkit-scrollbar {
 .home-link a:hover {
     text-shadow: 0 0 6px #ff9933;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* RESPONSIVE STYLES */
 @media (max-width: 1024px) {

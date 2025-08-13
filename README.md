@@ -36,4 +36,3 @@ It showcases **history, culture, patriotic events** and delivers a **fast, mobil
 
 ---
 
-## 📂 Project Structure
